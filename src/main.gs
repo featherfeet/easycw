@@ -1,7 +1,6 @@
 [indent=4]
 
 uses Gtk
-uses PortAudio
 
 init
     Gtk.init(ref args)
