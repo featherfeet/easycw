@@ -56,7 +56,7 @@ namespace PortAudio {
   [CCode (cname = "paFormatIsSupported")]
   public const int FORMAT_IS_SUPPORTED;
   [CCode (cname = "paFramesPerBufferUnspecified")]
-  public const int FRAMES_PER_BUFFER_UNSCPECIFIED;
+  public const int FRAMES_PER_BUFFER_UNSPECIFIED;
   
 
 
@@ -73,7 +73,7 @@ namespace PortAudio {
     [CCode (cname = "paInsufficientMemory")] INSUFFICIENT_MEMORY,
     [CCode (cname = "paBufferTooBig")] BUFFER_TOO_BIG,
     [CCode (cname = "paBufferTooSmall")] BUFFER_TO_SMALL,
-    [CCode (cname = "paNullCallback")] NULL_CALBACK,
+    [CCode (cname = "paNullCallback")] NULL_CALLBACK,
     [CCode (cname = "paBadStreamPtr")] BAD_STREAM_PTR,
     [CCode (cname = "paTimedOut")] TIMED_OUT,
     [CCode (cname = "paInternalError")] INTERNAL_ERROR,
