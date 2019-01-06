@@ -29,10 +29,9 @@ long_line_column=72
 
 [files]
 current_page=2
-FILE_NAME_0=10;Genie;0;EUTF-8;1;1;0;%2Fhome%2Foliver%2FProjects%2FEasyCW%2Fsrc%2Fmain.gs;0;4
-FILE_NAME_1=0;Vala;0;EUTF-8;1;1;0;%2Fhome%2Foliver%2FProjects%2FEasyCW%2Fsrc%2Fportaudio.vapi;0;4
-FILE_NAME_2=220;Genie;0;EUTF-8;1;1;0;%2Fhome%2Foliver%2FProjects%2FEasyCW%2Fsrc%2Fsenderreceiver.gs;0;4
-FILE_NAME_3=0;Make;0;EUTF-8;1;1;0;%2Fhome%2Foliver%2FProjects%2FEasyCW%2FMakefile;0;4
+FILE_NAME_0=0;Vala;0;EUTF-8;1;1;0;%2Fhome%2Foliver%2FProjects%2FEasyCW%2Fsrc%2Fportaudio.vapi;0;4
+FILE_NAME_1=0;Vala;0;EUTF-8;1;1;0;%2Fhome%2Foliver%2FProjects%2FEasyCW%2Fsrc%2Fmain.vala;0;4
+FILE_NAME_2=0;Vala;0;EUTF-8;1;1;0;%2Fhome%2Foliver%2FProjects%2FEasyCW%2Fsrc%2Fsenderreceiver.vala;0;4
 
 [build-menu]
 NF_00_LB=_Make

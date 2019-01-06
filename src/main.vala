@@ -1,4 +1,8 @@
+using Gtk;
+
 public class Application : Gtk.Window {
+	private SenderReceiver senderreceiver;
+
 	public Application() {
 		// Create the window.
 		this.title = "EasyCW";
@@ -13,14 +17,15 @@ public class Application : Gtk.Window {
 		// Create the widgets.
 		Gtk.Label receiveLabel = new Gtk.Label("Receive:");
 		receiveLabel.halign = Gtk.Align.START;
-		Gtk.LevelBar audioLevelBar = new Gtk.LevelBar.for_interval(0.0, 100.0);
+		Gtk.LevelBar audioLevelBar = new Gtk.LevelBar.for_interval(0.0, 1.0);
 		grid.attach(receiveLabel, 0, 0, 1, 1);
 		grid.attach(audioLevelBar, 0, 1, 3, 1);
+
+		// Start the audio processor.
+		senderreceiver = new SenderReceiver(44100.0, audioLevelBar);
 	}
 
 	public static int main(string[] args) {
-		SenderReceiver senderreceiver = new SenderReceiver(44100.0);
-
 		Gtk.init(ref args);
 		
 		Application app = new Application();
